@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genius Marketing | Vancouver Digital Marketing Agency</title>
+    <meta name="description" content="Genius Marketing helps local businesses in Vancouver, WA turn online searches into consistent calls, qualified leads, and long-term revenue growth.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass-header { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(229, 231, 235, 0.5); }
+        .primary-bg { background-color: #4169E1; }
+        .primary-text { color: #4169E1; }
+        .primary-border { border-color: #4169E1; }
+        .hover-primary:hover { background-color: #3154b3; }
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-[#4169E1] selection:text-white">
+
+    <!-- 1. HEADER -->
+    <header class="glass-header sticky top-0 z-50 w-full transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="flex items-center gap-2">
+                        <div class="relative">
+                            <img src="https://geniusmarketingco.com/wp-content/uploads/2025/10/cropped-Genius-Marketing-Logo-scaled-1-300x133.png" 
+                                 alt="Genius Marketing" 
+                                 class="h-12 w-auto object-contain"
+                                 onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='block';">
+                            <span id="logo-fallback" style="display:none;" class="text-2xl font-bold tracking-tight text-slate-900">Genius Marketing</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#" class="text-slate-600 hover:text-[#4169E1] font-medium transition-colors">Home</a>
+                    <a href="#services" class="text-slate-600 hover:text-[#4169E1] font-medium transition-colors">Services</a>
+                    <a href="#about" class="text-slate-600 hover:text-[#4169E1] font-medium transition-colors">About</a>
+                    <a href="#results" class="text-slate-600 hover:text-[#4169E1] font-medium transition-colors">Case Studies</a>
+                </nav>
+
+                <!-- CTA Button -->
+                <div class="hidden md:flex">
+                    <a href="#contact" class="primary-bg text-white px-6 py-2.5 rounded-full font-semibold shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-2">
+                        Get a Quote <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button class="text-slate-600 hover:text-[#4169E1]">
+                        <i data-lucide="menu" class="w-8 h-8"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION -->
+    <section class="relative pt-16 pb-24 lg:pt-32 lg:pb-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+                <!-- Left: Copy -->
+                <div class="space-y-8">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-[#4169E1] text-sm font-semibold">
+                        <span class="flex h-2 w-2 rounded-full bg-[#4169E1]"></span>
+                        Serving Vancouver, WA & Beyond
+                    </div>
+                    <h1 class="text-4xl lg:text-6xl font-bold leading-tight text-slate-900">
+                        Vancouver Digital Marketing Agency Focused on <span class="primary-text">Rankings, Leads & Real Growth</span>
+                    </h1>
+                    <p class="text-xl text-slate-600 font-medium">
+                        Helping local businesses in Vancouver, WA turn online searches into consistent calls, qualified leads, and long-term revenue growth.
+                    </p>
+                    <p class="text-slate-600 leading-relaxed max-w-xl">
+                        With 25+ years of combined marketing experience, Genius Marketing delivers data-driven SEO, Google Ads, and digital strategies built specifically for local service businesses. We don't just chase traffic; we chase measurable ROI for your business.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="#contact" class="primary-bg text-white px-8 py-4 rounded-lg font-bold text-lg shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 text-center">
+                            Get a Free Strategy Call
+                        </a>
+                        <a href="#services" class="bg-white text-slate-700 border border-slate-200 px-8 py-4 rounded-lg font-bold text-lg shadow-sm hover:border-[#4169E1] hover:text-[#4169E1] transition-all duration-300 text-center">
+                            See How We Help
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: Image -->
+                <div class="relative lg:ml-10">
+                    <div class="absolute -top-10 -right-10 w-72 h-72 bg-blue-100 rounded-full blur-3xl opacity-50"></div>
+                    <div class="absolute -bottom-10 -left-10 w-72 h-72 bg-indigo-100 rounded-full blur-3xl opacity-50"></div>
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop" 
+                         alt="Genius Marketing Team Strategy Session" 
+                         class="relative rounded-2xl shadow-2xl object-cover h-[600px] w-full z-10 transform hover:scale-[1.01] transition duration-500">
+                    
+                    <!-- Floating Badge -->
+                    <div class="absolute bottom-8 left-[-20px] z-20 bg-white p-4 rounded-lg shadow-xl border border-gray-100 max-w-xs animate-bounce" style="animation-duration: 3s;">
+                        <div class="flex items-center gap-3">
+                            <div class="bg-green-100 p-2 rounded-full">
+                                <i data-lucide="trending-up" class="w-6 h-6 text-green-600"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-slate-500">Average Client Growth</p>
+                                <p class="text-xl font-bold text-slate-900">+150% Leads</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. TRUST BAR -->
+    <div class="bg-white border-y border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="flex flex-col items-center text-center gap-2">
+                    <i data-lucide="shield-check" class="w-8 h-8 text-[#4169E1]"></i>
+                    <span class="font-bold text-slate-800">Fully Licensed</span>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2">
+                    <i data-lucide="star" class="w-8 h-8 text-[#4169E1]"></i>
+                    <span class="font-bold text-slate-800">5-Star Rated</span>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2">
+                    <i data-lucide="map-pin" class="w-8 h-8 text-[#4169E1]"></i>
+                    <span class="font-bold text-slate-800">Local Experts</span>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2">
+                    <i data-lucide="thumbs-up" class="w-8 h-8 text-[#4169E1]"></i>
+                    <span class="font-bold text-slate-800">Satisfaction Guaranteed</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. INTRO SECTION -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-6">Your Trusted Digital Marketing Partner in Vancouver, WA</h2>
+            <div class="w-24 h-1 primary-bg mx-auto mb-8 rounded-full"></div>
+            <p class="text-lg text-slate-600 leading-relaxed mb-6">
+                At Genius Marketing, we specialize in helping local businesses across Vancouver and surrounding areas increase visibility, attract more customers, and strengthen their online presence.
+            </p>
+            <p class="text-lg text-slate-600 leading-relaxed mb-6">
+                We don’t believe in generic marketing. Every campaign is built around strategy, creativity, and real performance data — so your business doesn’t just get traffic, it gets results.
+            </p>
+            <p class="text-lg text-slate-600 leading-relaxed">
+                Our team includes experienced SEO specialists, Google Ads experts, web developers, and social media professionals who understand what it takes to win in competitive local markets.
+            </p>
+        </div>
+    </section>
+
+    <!-- 5. SERVICES SECTION -->
+    <section id="services" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-[#4169E1] font-semibold tracking-wider uppercase">Our Expertise</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mt-2">Comprehensive Digital Solutions</h2>
+                <p class="mt-4 text-slate-600 max-w-2xl mx-auto">From ranking higher on Google to converting clicks into customers, we handle the entire digital ecosystem for your business.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- SEO Services -->
+                <a href="https://geniusmarketingco.com/advanced-seo-services-vancouver-wa/" class="block hover:-translate-y-2 transition duration-300 group">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 h-full relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:bg-blue-100"></div>
+                        <i data-lucide="search" class="w-10 h-10 text-[#4169E1] mb-6 relative z-10"></i>
+                        <h3 class="text-xl font-bold mb-3 text-slate-900 group-hover:text-[#4169E1] transition-colors">SEO Services</h3>
+                        <p class="text-slate-600 leading-relaxed">Dominating search results with advanced strategies tailored to your industry. We drive organic traffic that converts into loyal customers.</p>
+                    </div>
+                </a>
+
+                <!-- Local SEO -->
+                <a href="https://geniusmarketingco.com/local-seo-services-vancouver-wa/" class="block hover:-translate-y-2 transition duration-300 group">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 h-full relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:bg-blue-100"></div>
+                        <i data-lucide="map" class="w-10 h-10 text-[#4169E1] mb-6 relative z-10"></i>
+                        <h3 class="text-xl font-bold mb-3 text-slate-900 group-hover:text-[#4169E1] transition-colors">Local SEO</h3>
+                        <p class="text-slate-600 leading-relaxed">Capture the local market in Vancouver, WA. We optimize your GMB and citations to ensure neighbors find you first.</p>
+                    </div>
+                </a>
+
+                <!-- Web Design -->
+                <a href="https://geniusmarketingco.com/web-design-services-vancouver-wa/" class="block hover:-translate-y-2 transition duration-300 group">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 h-full relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:bg-blue-100"></div>
+                        <i data-lucide="monitor" class="w-10 h-10 text-[#4169E1] mb-6 relative z-10"></i>
+                        <h3 class="text-xl font-bold mb-3 text-slate-900 group-hover:text-[#4169E1] transition-colors">Web Design</h3>
+                        <p class="text-slate-600 leading-relaxed">Stunning, mobile-responsive websites designed for speed and conversions. We build digital storefronts that build trust.</p>
+                    </div>
+                </a>
+
+                <!-- Google Ads -->
+                <a href="https://geniusmarketingco.com/google-ads-management-vancouver-wa/" class="block hover:-translate-y-2 transition duration-300 group">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 h-full relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:bg-blue-100"></div>
+                        <i data-lucide="target" class="w-10 h-10 text-[#4169E1] mb-6 relative z-10"></i>
+                        <h3 class="text-xl font-bold mb-3 text-slate-900 group-hover:text-[#4169E1] transition-colors">Google Ads</h3>
+                        <p class="text-slate-600 leading-relaxed">Immediate visibility with high-intent traffic. Our certified experts optimize campaigns to lower CPC and increase leads.</p>
+                    </div>
+                </a>
+
+                <!-- Social media Marketing -->
+                <a href="https://geniusmarketingco.com/social-media-marketing-vancouver-wa/" class="block hover:-translate-y-2 transition duration-300 group">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 h-full relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:bg-blue-100"></div>
+                        <i data-lucide="share-2" class="w-10 h-10 text-[#4169E1] mb-6 relative z-10"></i>
+                        <h3 class="text-xl font-bold mb-3 text-slate-900 group-hover:text-[#4169E1] transition-colors">Social media Marketing</h3>
+                        <p class="text-slate-600 leading-relaxed">Engage your audience where they spend their time. We create compelling content strategies for FB, IG, and LinkedIn.</p>
+                    </div>
+                </a>
+
+                <!-- Reputation Management -->
+                <a href="https://geniusmarketingco.com/reputation-management-vancouver-wa/" class="block hover:-translate-y-2 transition duration-300 group">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 h-full relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:bg-blue-100"></div>
+                        <i data-lucide="star-half" class="w-10 h-10 text-[#4169E1] mb-6 relative z-10"></i>
+                        <h3 class="text-xl font-bold mb-3 text-slate-900 group-hover:text-[#4169E1] transition-colors">Reputation Management</h3>
+                        <p class="text-slate-600 leading-relaxed">Protect and enhance your brand image. We help you generate more 5-star reviews and manage feedback effectively.</p>
+                    </div>
+                </a>
+
+                <!-- On-Page SEO -->
+                <a href="https://geniusmarketingco.com/on-page-seo-services-vancouver-wa/" class="block hover:-translate-y-2 transition duration-300 group">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 h-full relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:bg-blue-100"></div>
+                        <i data-lucide="file-text" class="w-10 h-10 text-[#4169E1] mb-6 relative z-10"></i>
+                        <h3 class="text-xl font-bold mb-3 text-slate-900 group-hover:text-[#4169E1] transition-colors">On-Page SEO</h3>
+                        <p class="text-slate-600 leading-relaxed">Optimizing content, meta tags, and internal linking structures to ensure Google understands and ranks your pages.</p>
+                    </div>
+                </a>
+
+                <!-- Off-Page SEO -->
+                <a href="https://geniusmarketingco.com/off-page-seo-services-vancouver-wa/" class="block hover:-translate-y-2 transition duration-300 group">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 h-full relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:bg-blue-100"></div>
+                        <i data-lucide="globe" class="w-10 h-10 text-[#4169E1] mb-6 relative z-10"></i>
+                        <h3 class="text-xl font-bold mb-3 text-slate-900 group-hover:text-[#4169E1] transition-colors">Off-Page SEO</h3>
+                        <p class="text-slate-600 leading-relaxed">Building high-quality authority through backlink campaigns and outreach that signals credibility to search engines.</p>
+                    </div>
+                </a>
+
+                <!-- Technical SEO -->
+                <a href="https://geniusmarketingco.com/technical-seo-services-vancouver-wa/" class="block hover:-translate-y-2 transition duration-300 group">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 h-full relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-bl-full -mr-10 -mt-10 transition-all group-hover:bg-blue-100"></div>
+                        <i data-lucide="settings" class="w-10 h-10 text-[#4169E1] mb-6 relative z-10"></i>
+                        <h3 class="text-xl font-bold mb-3 text-slate-900 group-hover:text-[#4169E1] transition-colors">Technical SEO</h3>
+                        <p class="text-slate-600 leading-relaxed">Fixing the backend. We optimize site speed, mobile usability, and crawlability to ensure a healthy website foundation.</p>
+                    </div>
+                </a>
+
+                 <!-- Free Audit -->
+                 <a href="#" class="block hover:-translate-y-2 transition duration-300 group col-span-1 md:col-span-3">
+                    <div class="bg-[#4169E1] p-8 rounded-2xl shadow-lg hover:shadow-xl h-full flex flex-col md:flex-row items-center justify-between text-white">
+                        <div class="mb-4 md:mb-0">
+                            <h3 class="text-2xl font-bold mb-2 flex items-center gap-2"><i data-lucide="clipboard-check" class="w-8 h-8"></i> Free Website & SEO Audit</h3>
+                            <p class="text-blue-100">Discover missed opportunities and get a roadmap to success at no cost.</p>
+                        </div>
+                        <span class="bg-white text-[#4169E1] px-6 py-3 rounded-full font-bold shadow-md">Get Audited Now</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. WHY CHOOSE US -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">Why Choose Genius Marketing?</h2>
+                <p class="mt-4 text-slate-600">We don't just execute tasks; we build the future of your business.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="flex flex-col items-center text-center">
+                    <div class="w-20 h-20 rounded-full primary-bg flex items-center justify-center mb-6 shadow-lg">
+                        <i data-lucide="lightbulb" class="w-10 h-10 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-slate-900">Innovative Strategy</h3>
+                    <p class="text-slate-600 text-sm">Custom-tailored plans that adapt to market shifts, keeping you ahead of competitors.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="flex flex-col items-center text-center">
+                    <div class="w-20 h-20 rounded-full primary-bg flex items-center justify-center mb-6 shadow-lg">
+                        <i data-lucide="award" class="w-10 h-10 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-slate-900">Proven Experience</h3>
+                    <p class="text-slate-600 text-sm">Founded by industry veterans, we bring 25+ years of combined marketing mastery.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="flex flex-col items-center text-center">
+                    <div class="w-20 h-20 rounded-full primary-bg flex items-center justify-center mb-6 shadow-lg">
+                        <i data-lucide="bar-chart-2" class="w-10 h-10 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-slate-900">Data-Driven</h3>
+                    <p class="text-slate-600 text-sm">We make decisions based on hard data and analytics, not guesswork or feelings.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="flex flex-col items-center text-center">
+                    <div class="w-20 h-20 rounded-full primary-bg flex items-center justify-center mb-6 shadow-lg">
+                        <i data-lucide="users" class="w-10 h-10 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-slate-900">Personal Approach</h3>
+                    <p class="text-slate-600 text-sm">Direct access to your team. No faceless account managers, just real partnerships.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. CASE STUDY -->
+    <section id="results" class="py-24 bg-[#111827] text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <span class="text-[#4169E1] font-bold tracking-widest uppercase text-sm">Success Story</span>
+                    <h2 class="text-4xl font-bold mt-2 mb-6">HVAC Company Doubles Revenue in 6 Months</h2>
+                    <p class="text-gray-400 text-lg mb-8 leading-relaxed">
+                        A local Vancouver HVAC provider was struggling with low lead volume and high ad costs. Genius Marketing stepped in with a complete Local SEO and Google Ads overhaul.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="check-circle" class="w-6 h-6 text-[#4169E1]"></i>
+                            <span>Reduced Cost Per Lead by 45%</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="check-circle" class="w-6 h-6 text-[#4169E1]"></i>
+                            <span>Ranked #1 for "AC Repair Vancouver"</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="check-circle" class="w-6 h-6 text-[#4169E1]"></i>
+                            <span>Website Conversion Rate jumped to 12%</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="inline-block primary-bg text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-600 transition duration-300">
+                        Get Similar Results
+                    </a>
+                </div>
+
+                <!-- Visual Chart -->
+                <div class="bg-[#1f2937] p-8 rounded-2xl border border-gray-700 shadow-2xl">
+                    <h3 class="text-xl font-semibold mb-8">Growth Metrics (YoY)</h3>
+                    <div class="flex items-end justify-between h-64 gap-4">
+                        <!-- Bar 1 -->
+                        <div class="w-1/3 flex flex-col justify-end group">
+                            <div class="text-center mb-2 opacity-0 group-hover:opacity-100 transition-opacity text-[#4169E1] font-bold">+300%</div>
+                            <div class="bg-gray-600 rounded-t-lg h-16 w-full relative overflow-hidden group-hover:bg-[#4169E1] transition-all duration-500"></div>
+                            <div class="text-center mt-4 text-sm text-gray-400 font-medium">Traffic</div>
+                        </div>
+                        <!-- Bar 2 -->
+                        <div class="w-1/3 flex flex-col justify-end group">
+                            <div class="text-center mb-2 opacity-0 group-hover:opacity-100 transition-opacity text-[#4169E1] font-bold">+150%</div>
+                            <div class="bg-gray-600 rounded-t-lg h-32 w-full relative overflow-hidden group-hover:bg-[#4169E1] transition-all duration-500 delay-100"></div>
+                            <div class="text-center mt-4 text-sm text-gray-400 font-medium">Leads</div>
+                        </div>
+                        <!-- Bar 3 -->
+                        <div class="w-1/3 flex flex-col justify-end group">
+                            <div class="text-center mb-2 opacity-0 group-hover:opacity-100 transition-opacity text-[#4169E1] font-bold">+500%</div>
+                            <div class="bg-gray-600 rounded-t-lg h-56 w-full relative overflow-hidden group-hover:bg-[#4169E1] transition-all duration-500 delay-200"></div>
+                            <div class="text-center mt-4 text-sm text-gray-400 font-medium">ROI</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. TESTIMONIALS -->
+    <section class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-slate-900 mb-16">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    </div>
+                    <p class="text-slate-600 italic mb-6">"Spencer and the team transformed our online presence. Calls started coming in within weeks of our new site launch. Highly recommended!"</p>
+                    <div class="font-bold text-slate-900">Sarah Jenkins</div>
+                    <div class="text-sm text-slate-500">Local Business Owner</div>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    </div>
+                    <p class="text-slate-600 italic mb-6">"Genius Marketing doesn't just promise, they deliver. Our Google Ads ROI has never been higher. A true partner in growth."</p>
+                    <div class="font-bold text-slate-900">Mike Thompson</div>
+                    <div class="text-sm text-slate-500">HVAC Contractor</div>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-slate-100">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    </div>
+                    <p class="text-slate-600 italic mb-6">"Finally, an agency that understands the Vancouver market. Professional, transparent reporting, and great results."</p>
+                    <div class="font-bold text-slate-900">David Ross</div>
+                    <div class="text-sm text-slate-500">Real Estate Broker</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. FAQ -->
+    <section class="py-20 bg-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-slate-900 mb-12">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <details class="group bg-slate-50 p-6 rounded-xl cursor-pointer border border-slate-200">
+                    <summary class="flex justify-between items-center font-bold text-slate-800 text-lg">
+                        How long does it take to see results from SEO?
+                        <span class="transition group-open:rotate-180"><i data-lucide="chevron-down" class="text-[#4169E1]"></i></span>
+                    </summary>
+                    <p class="text-slate-600 mt-4 leading-relaxed">
+                        SEO is a long-term strategy. While technical fixes can show results in weeks, significant ranking improvements typically take 3 to 6 months depending on your industry's competitiveness and current website authority.
+                    </p>
+                </details>
+
+                <details class="group bg-slate-50 p-6 rounded-xl cursor-pointer border border-slate-200">
+                    <summary class="flex justify-between items-center font-bold text-slate-800 text-lg">
+                        What budget should I allocate for Google Ads?
+                        <span class="transition group-open:rotate-180"><i data-lucide="chevron-down" class="text-[#4169E1]"></i></span>
+                    </summary>
+                    <p class="text-slate-600 mt-4 leading-relaxed">
+                        We recommend a budget that allows for sufficient data gathering. For most local service businesses, starting between $1,000 to $2,000 per month in ad spend is a healthy range to generate consistent leads while optimizing for cost-per-acquisition.
+                    </p>
+                </details>
+
+                <details class="group bg-slate-50 p-6 rounded-xl cursor-pointer border border-slate-200">
+                    <summary class="flex justify-between items-center font-bold text-slate-800 text-lg">
+                        Do you provide monthly reporting?
+                        <span class="transition group-open:rotate-180"><i data-lucide="chevron-down" class="text-[#4169E1]"></i></span>
+                    </summary>
+                    <p class="text-slate-600 mt-4 leading-relaxed">
+                        Absolutely. Transparency is one of our core values. You receive a detailed monthly report breaking down traffic, rankings, leads generated, and work performed, along with a strategy call to discuss the next steps.
+                    </p>
+                </details>
+
+                <details class="group bg-slate-50 p-6 rounded-xl cursor-pointer border border-slate-200">
+                    <summary class="flex justify-between items-center font-bold text-slate-800 text-lg">
+                        Why is Local SEO important for my business?
+                        <span class="transition group-open:rotate-180"><i data-lucide="chevron-down" class="text-[#4169E1]"></i></span>
+                    </summary>
+                    <p class="text-slate-600 mt-4 leading-relaxed">
+                        Local SEO focuses on capturing customers in your immediate geographic area. Since 46% of all Google searches are seeking local information, appearing in the "Map Pack" is critical for driving foot traffic and local calls.
+                    </p>
+                </details>
+
+                <details class="group bg-slate-50 p-6 rounded-xl cursor-pointer border border-slate-200">
+                    <summary class="flex justify-between items-center font-bold text-slate-800 text-lg">
+                        Is the website audit really free?
+                        <span class="transition group-open:rotate-180"><i data-lucide="chevron-down" class="text-[#4169E1]"></i></span>
+                    </summary>
+                    <p class="text-slate-600 mt-4 leading-relaxed">
+                        Yes, 100% free with no obligation. We analyze your technical SEO, content, and backlink profile to show you exactly where you stand and identifying quick wins to improve your performance.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. SERVICE AREAS & MAP -->
+    <section id="contact" class="py-24 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-8 bg-white p-4 rounded-3xl shadow-lg overflow-hidden">
+                <!-- Left: Content -->
+                <div class="p-8 lg:p-12 flex flex-col justify-center">
+                    <h2 class="text-3xl font-bold text-slate-900 mb-6">Serving Vancouver & Surrounding Areas</h2>
+                    <p class="text-slate-600 mb-8">We are proud to partner with businesses across Southwest Washington. Our local expertise ensures your campaigns resonate with the community.</p>
+                    
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-center gap-2 text-slate-700 font-medium">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-[#4169E1]"></i> Vancouver
+                        </div>
+                        <div class="flex items-center gap-2 text-slate-700 font-medium">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-[#4169E1]"></i> Camas
+                        </div>
+                        <div class="flex items-center gap-2 text-slate-700 font-medium">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-[#4169E1]"></i> Battle Ground
+                        </div>
+                        <div class="flex items-center gap-2 text-slate-700 font-medium">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-[#4169E1]"></i> Ridgefield
+                        </div>
+                    </div>
+
+                    <div class="space-y-4 pt-8 border-t border-slate-100">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-blue-50 p-3 rounded-full">
+                                <i data-lucide="phone" class="w-6 h-6 text-[#4169E1]"></i>
+                            </div>
+                            <span class="text-lg font-bold text-slate-900">(360) 519-5100</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="bg-blue-50 p-3 rounded-full">
+                                <i data-lucide="mail" class="w-6 h-6 text-[#4169E1]"></i>
+                            </div>
+                            <span class="text-lg font-bold text-slate-900">info@geniusmarketingco.com</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="bg-blue-50 p-3 rounded-full">
+                                <i data-lucide="navigation" class="w-6 h-6 text-[#4169E1]"></i>
+                            </div>
+                            <span class="text-lg text-slate-700">13215 SE Mill Plain Blvd, Vancouver, WA 98684</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Map -->
+                <div class="h-full min-h-[400px] w-full bg-slate-200 rounded-2xl overflow-hidden">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20202.979321005445!2d-122.536452!3d45.618132!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495bb9a1aa1e93d%3A0x134dc407a5f2121a!2sGenius%20Marketing!5e1!3m2!1sen!2s!4v1767018797403!5m2!1sen!2s" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="h-full w-full"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. FOOTER -->
+    <footer class="bg-[#0f172a] text-slate-300 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Brand -->
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <img src="https://geniusmarketingco.com/wp-content/uploads/2025/10/cropped-Genius-Marketing-Logo-scaled-1-300x133.png" 
+                             alt="Genius Marketing" 
+                             class="h-10 w-auto brightness-0 invert"
+                             onerror="this.style.display='none'; document.getElementById('footer-logo-text').style.display='block';">
+                        <span id="footer-logo-text" style="display:none;" class="text-2xl font-bold text-white">Genius Marketing</span>
+                    </div>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Helping local businesses in Vancouver, WA grow through data-driven digital marketing strategies.
+                    </p>
+                    <div class="flex gap-4 pt-2">
+                        <a href="https://www.facebook.com/people/Genius-Marketing/61582423186158/" class="hover:text-[#4169E1] transition"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                        <a href="https://www.instagram.com/geniusmarketing_co" class="hover:text-[#4169E1] transition"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                        <a href="https://www.tiktok.com/@geniu_smarketing" class="hover:text-[#4169E1] transition"><i data-lucide="music-2" class="w-5 h-5"></i></a>
+                        <a href="https://www.youtube.com/@geniusmarketing_co" class="hover:text-[#4169E1] transition"><i data-lucide="youtube" class="w-5 h-5"></i></a>
+                        <a href="https://x.com/GM_Marketingco" class="hover:text-[#4169E1] transition"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+                    </div>
+                </div>
+
+                <!-- Services Column 1 -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="https://geniusmarketingco.com/advanced-seo-services-vancouver-wa/" class="hover:text-white transition">SEO Services</a></li>
+                        <li><a href="https://geniusmarketingco.com/local-seo-services-vancouver-wa/" class="hover:text-white transition">Local SEO</a></li>
+                        <li><a href="https://geniusmarketingco.com/web-design-services-vancouver-wa/" class="hover:text-white transition">Web Design</a></li>
+                        <li><a href="https://geniusmarketingco.com/google-ads-management-vancouver-wa/" class="hover:text-white transition">Google Ads</a></li>
+                        <li><a href="https://geniusmarketingco.com/social-media-marketing-vancouver-wa/" class="hover:text-white transition">Social Media</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services Column 2 -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">More Services</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="https://geniusmarketingco.com/reputation-management-vancouver-wa/" class="hover:text-white transition">Reputation Management</a></li>
+                        <li><a href="https://geniusmarketingco.com/on-page-seo-services-vancouver-wa/" class="hover:text-white transition">On-Page SEO</a></li>
+                        <li><a href="https://geniusmarketingco.com/off-page-seo-services-vancouver-wa/" class="hover:text-white transition">Off-Page SEO</a></li>
+                        <li><a href="https://geniusmarketingco.com/technical-seo-services-vancouver-wa/" class="hover:text-white transition">Technical SEO</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Contact Us</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-[#4169E1] flex-shrink-0"></i>
+                            <span>13215 SE Mill Plain Blvd, Vancouver, WA 98684</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="phone" class="w-5 h-5 text-[#4169E1] flex-shrink-0"></i>
+                            <span>(360) 519-5100</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="mail" class="w-5 h-5 text-[#4169E1] flex-shrink-0"></i>
+                            <span>info@geniusmarketingco.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
+                <p>&copy; 2025 Genius Marketing. All rights reserved.</p>
+                <div class="flex gap-6 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-white">Privacy Policy</a>
+                    <a href="#" class="hover:text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
